@@ -37,7 +37,7 @@ def birthday(s, d, m):
 
 
 if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
+    # fptr = open(os.environ['OUTPUT_PATH'], 'w')
 
     n = int(input().strip())
 
@@ -50,8 +50,8 @@ if __name__ == '__main__':
     m = int(first_multiple_input[1])
 
     result = birthday(s, d, m)
-    # print(result)
+    print(result)
 
-    fptr.write(str(result) + '\n')
-
-    fptr.close()
+    # fptr.write(str(result) + '\n')
+    #
+    # fptr.close()

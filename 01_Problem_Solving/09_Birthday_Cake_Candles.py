@@ -24,8 +24,7 @@ def birthdayCakeCandles(candles):
         else:
             break
 
-    # return tallest_candles
-    print(tallest_candles)
+    return tallest_candles
 
 
 if __name__ == '__main__':
@@ -36,6 +35,7 @@ if __name__ == '__main__':
     candles = list(map(int, input().rstrip().split()))
 
     result = birthdayCakeCandles(candles)
+    print(result)
 
     # fptr.write(str(result) + '\n')
     #

@@ -40,7 +40,7 @@ if __name__ == '__main__':
 
     result = kangaroo(x1, v1, x2, v2)
     print(result)
-    #
+
     # fptr.write(result + '\n')
     #
     # fptr.close()
