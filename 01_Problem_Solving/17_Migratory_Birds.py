@@ -38,6 +38,6 @@ if __name__ == '__main__':
     result = migratoryBirds(arr)
     print(result)
 
-    # fptr.write(str(result) + '\n')
-    #
-    # fptr.close()
+    fptr.write(str(result) + '\n')
+    
+    fptr.close()
